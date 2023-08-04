@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Formas Geométricas</title>
+  <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Que forma geométrica você gostaria de conhecer?</h1>
+  <input type="text" id="forma"><button onclick="exibirForma()">Mostrar</button>
+  <br>
+  <img id='forma-img' src="{{url_for('static', filename='img/int.png')}}" height="250px">
+  
+  <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+  
+</html>
